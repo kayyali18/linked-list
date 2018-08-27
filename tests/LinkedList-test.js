@@ -167,7 +167,7 @@ describe('LINKED LIST', () => {
       });
   });
 
-  describe.skip('FIND', () => {
+  describe('FIND', () => {
     beforeEach(() => {
       list.push('oh');
       list.push('hello');

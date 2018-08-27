@@ -61,4 +61,19 @@ export default class LinkedList {
         return currNode;
 
     }
+
+    find (data) {
+        let foundNode = null;
+        let currNode = this.head;
+
+        while (currNode) {
+            if (currNode.data == data) {
+                foundNode = currNode;
+                break;
+            } else currNode = currNode.next;
+        }
+
+        return foundNode;
+
+    }
 }
